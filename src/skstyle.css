@@ -1,0 +1,171 @@
+@font-face {
+  font-family: 'MaiDubai';
+  src:  url('assets/fonts/MaiDubai.eot?bmafow');
+  src:  url('assets/fonts/MaiDubai.eot?bmafow#iefix') format('embedded-opentype'),
+    url('assets/fonts/MaiDubai.ttf?bmafow') format('truetype'),
+    url('assets/fonts/MaiDubai.woff?bmafow') format('woff'),
+    url('assets/fonts/MaiDubai.svg?bmafow#MaiDubai') format('svg');
+  font-weight: normal;
+  font-style: normal;
+  font-display: block;
+}
+
+[class^="maid-"], [class*=" maid-"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'MaiDubai' !important;
+  speak: never;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.maid-arrow-circle-left:before {content: "\e900";}
+.maid-arrow-circle-up:before {content: "\e901";}
+.maid-arrow-left-line:before {content: "\e902";}
+.maid-arrow-right-big:before {content: "\e903";}
+.maid-arrow-right-smal:before {content: "\e904";}
+.maid-arrow-up-right:before {content: "\e905";}
+.maid-briefcase:before {content: "\e906";}
+.maid-close-circle:before {content: "\e907";}
+.maid-document:before {content: "\e908";}
+.maid-filter-search:before {content: "\e909";}
+.maid-grid-3:before {content: "\e90a";}
+.maid-map:before {content: "\e90b";}
+.maid-money-send:before {content: "\e90c";}
+.maid-notification:before {content: "\e90d";}
+.maid-plus:before {content: "\e90e";}
+.maid-search:before {content: "\e90f";}
+.maid-settings:before {content: "\e910";}
+.maid-three-dots:before {content: "\e911";}
+.maid-triangle-up:before {content: "\e912";}
+.maid-data-2:before {content: "\e913";}
+.maid-home-trend-up:before {content: "\e914";}
+.maid-eye:before {content: "\e915";}
+.maid-edit:before {content: "\e916";}
+
+/* vk style */
+.leaflet-container { height: 1000px; }
+.leaflet-layer,
+.leaflet-control-zoom-in,
+.leaflet-control-zoom-out,
+.leaflet-control-attribution {
+filter: invert(10%) hue-rotate(180deg) brightness(95%) contrast(90%);
+}
+
+.map-container .leaflet-tooltip-content,
+.map-container .leaflet-popup-content
+{ margin: 0; }
+
+.map-container .leaflet-popup-content-wrapper, .map-container .leaflet-popup-tip
+{ background: none; box-shadow: none; }
+/* .leaflet-control-container {position: absolute !important;} */
+.leaflet-control-container .leaflet-left{right:0 !important;}
+.leaflet-control-container .leaflet-bottom{bottom:0 !important;}
+
+.leaflet-popup-content-wrapper, .leaflet-popup-tip {
+background: white;
+color: #333;
+box-shadow: 0 3px 14px rgba(0, 0, 0, 0.4);
+}
+
+.dark .leaflet-popup-content-wrapper, .leaflet-popup-tip {
+color: #EEEEF0;
+}
+
+.map-container .leaflet-popup-content {
+background: white;
+box-shadow: 0px 20px 25px -5px rgba(0, 0, 0, 0.10), 0px 10px 10px 0px rgba(0, 0, 0, 0.04);
+border: none;
+padding: 16px;
+min-width: 370px;
+border-radius: 12px;
+opacity: 1 !important;
+}
+
+.dark .map-container .leaflet-popup-content {
+background: #111928;
+}
+
+.map-container .leaflet-tooltip-left:before{
+border-left-color: #263040 !important;
+}
+.map-container .leaflet-tooltip-pane{
+background: #fff;
+}
+.map-container .leaflet-control{
+float: right !important;
+}
+.map-container .leaflet-left .leaflet-control{
+margin-right: 10px;
+right: 0 !important;
+}
+.map-container .leaflet-top .leaflet-control{
+bottom: 0 !important;
+position: absolute !important;
+margin-bottom: 20px;
+display: none;
+}
+.leaflet-top{
+bottom: 0 !important;
+}
+
+
+.map-container.leaflet-container .leaflet-popup-close-button span { display: none; }
+.map-container.leaflet-container .leaflet-popup-close-button:before { content: "\e907"; font-family: 'MaiDubai'; color: #4B586E; position: absolute; left: 12px; top: 50%; transform: translateY(-50%); }
+.map-container.leaflet-container a.leaflet-popup-close-button:hover, .leaflet-container a.leaflet-popup-close-button:focus { color: #4B586E; }
+
+.map-container.leaflet-container a.leaflet-popup-close-button {
+	top: 20px;
+	right: 20px;
+	}
+
+.map-container.leaflet-container .leaflet-tooltip {
+  border-radius: 12px;
+  padding: 16px;
+}
+
+.leaflet-bar a{
+border-radius:  9999px !important;
+background:  #42536D !important;
+margin-top: 10px;
+
+}
+
+.custm_Checkbox.p-checkbox {
+  width: 16px;
+  height: 16px;
+}
+.custm_Checkbox.p-checkbox .p-checkbox-box {
+  width: 16px;
+  height: 16px;
+  border-radius: 4px;
+}
+.custm_Checkbox.p-checkbox.p-checkbox-checked .p-checkbox-box.p-highlight {
+  background: #1570EF;
+  border-color: #1570EF;
+}
+.custm_Checkbox.p-checkbox.p-checkbox-checked .p-checkbox-box.p-highlight .p-checkbox-icon {
+  font-size: 10px;
+}
+.p-scrollpanel .p-scrollpanel-bar {
+  background: #40454a !important;
+}
+ /***********************************************
+            Responsive
+***********************************************/
+
+@media (min-width:1800px) { }
+
+@media (max-width:1280px) {  }
+
+@media (max-width:991px) {  }
+
+@media (max-width:767px) {  }
+
+@media (max-width:575px) {  }
